@@ -1,0 +1,31 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title th:text="${reviewModel.title}">Sneaker Review</title>
+    <link href="/css/style.css" rel="stylesheet"/>
+</head>
+<body>
+
+<header>
+    <h1 th:text="${reviewModel.title}">Sneaker Review</h1>
+</header>
+
+<main>
+    <ul>
+        <p><a href="/reviews">Reviews</a></p>
+    </ul>
+    <h2 th:text="${reviewModel.reviewCategory}"></h2>
+    <br>
+    <h3 th:text="${reviewModel.content}"></h3>
+    <br>
+    <h3 th:text="${reviewModel.date}"></h3>
+    <br>
+    <img th:src="${reviewModel.imageUrl}">
+</main>
+
+<footer>
+    <small>&copy Fields 2020</small>
+</footer>
+
+</body>
+</html>

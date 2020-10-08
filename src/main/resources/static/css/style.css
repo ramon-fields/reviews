@@ -1,0 +1,51 @@
+* {
+    font-family: sans-serif;
+    line-height: 1.618em;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 16px;
+    margin-top: 3em;
+}
+
+h1 {
+    color: red;
+}
+
+header,
+main,
+footer {
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+header {
+    padding: 2em 0;
+}
+
+header h1 {
+    font-size: 3em;
+}
+
+p :hover {
+    color: red;
+}
+
+li :hover {
+    color: red;
+}
+
+img {
+}
+
+footer {
+    margin-top: 2em;
+    margin-bottom: 1em;
+    background: black;
+    color: white;
+    padding: 1em 0;
+    text-align: center;
+}
